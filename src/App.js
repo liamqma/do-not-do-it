@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { format, parse, differenceInCalendarDays } from "date-fns";
 import Cookies from "js-cookie";
 import "./App.css";
-import { renderIntoDocument } from "react-dom/test-utils";
 
 const dateFormate = "dd/MM/yyyy";
 
